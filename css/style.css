@@ -1,0 +1,77 @@
+/*navbar styles*/
+.nav i{
+    font-size: 22px;
+}
+/*carousel styles*/
+.carousel-inner img{
+    width:100%;
+    height:400;
+}
+#offer i{
+    font-size: 35px;
+}
+#offer .title h3::after{
+    content:"";
+    width:110px;
+    height: 5px;
+    background-color: red;
+    display:block;
+    margin: auto;
+    border-radius:10px ;
+    margin-top: 10px;
+}
+#offer .title h2{
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style:double ;
+}
+/*application styles*/
+#application  i{
+    font-size: 23px;
+}
+#application .title h3::after{
+    content:"";
+    width:110px;
+    height: 5px;
+    background-color: red;
+    display:block;
+    margin: auto;
+    border-radius:10px ;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#application .title h2{
+    text-decoration-line: underline;
+    text-decoration-color:orange;
+    text-decoration-style:wavy ;
+}
+/*news styles*/
+#news .title h3::after{
+    content:"";
+    width:110px;
+    height: 5px;
+    background-color: red;
+    display:block;
+    margin: auto;
+    border-radius:10px ;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#news .title h2{
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style:double ;
+}
+#news .parent{
+    overflow:hidden ;
+}
+#news .card img{
+    transition:all 1s ease;
+}
+#news .card img:hover{
+    transform:scale(1.5,2);
+}
+#footer img{
+    width:100%;
+    height:100px;
+}
